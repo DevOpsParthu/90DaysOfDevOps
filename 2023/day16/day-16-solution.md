@@ -64,7 +64,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 
 <div align="center">
-<img src=="https://cdn.hashnode.com/res/hashnode/image/upload/v1701757021860/3ded4a89-9df3-47ad-aae3-4f4256a59006.png" alt="my_logo">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1701757021860/3ded4a89-9df3-47ad-aae3-4f4256a59006.png" alt="my logo">
 </div>
 
 
