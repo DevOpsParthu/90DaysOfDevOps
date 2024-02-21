@@ -40,7 +40,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 </div>
 
 
-- Explanation: This commands use the `docker run` commands to start a new container based on hello-world and its create image.Docker will pull the image if its not available in locally and simply container prints a message to conform that your Docker installation is working.
+- **Explanation**: This commands use the `docker run` commands to start a new container based on hello-world and its create image.Docker will pull the image if its not available in locally and simply container prints a message to conform that your Docker installation is working.
 
 ### Use the `docker inspect` command to view detailed information about a container or image.
 
@@ -54,7 +54,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 </div>
 
 
-- Explanation: The `docker inspect` command provide the detail information of your container or image.Using docker ps -a command you check your IMAGE and CONTAINER ID of your TASK:1
+- **Explanation**: The `docker inspect` command provide the detail information of your container or image.Using docker ps -a command you check your IMAGE and CONTAINER ID of your TASK:1
 
 ### Use the `docker port` command to list the port mappings for a container.
 
@@ -68,7 +68,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 </div>
 
 
-- Explanation: The `docker port` command specify the port mapping of its containers.
+- **Explanation**: The `docker port` command specify the port mapping of its containers.
 
 
 ### Use the `docker stats` command to view resource usage statistics for one or more containers.
@@ -83,7 +83,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 </div>
 
 
-- Explanation: This `docker stats` commands provides the real-time resource usage statistics for one or more containers.
+- **Explanation**: This `docker stats` commands provides the real-time resource usage statistics for one or more containers.
 
 
 ### Use the `docker top` command to view the processes running inside a container.
@@ -99,7 +99,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 </div>
 
 
-- Explanation: The `docker top` commands display the process of running inside the containers.
+- **Explanation**: The `docker top` commands display the process of running inside the containers.
 
 
 ### Use the `docker save` command to save an image to a tar archive.
@@ -114,7 +114,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 </div>
 
 
-- Explanation: The `docker save` command export to an image to a tar archive.
+- **Explanation**: The `docker save` command export to an image to a tar archive.
 
 
 ### Use the `docker load` command to load an image from a tar archive.
@@ -132,12 +132,14 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 - `-i` <input_tar_file_name>.tar: The `-i` flag stands for "input," specifying the input file containing the Docker image. `<input_tar_file_name>.tar` is the name of the tar archive file from which you want to load the Docker image.
 
-- Explanation: The `docker load` commands import an image from a tar archive.
+- **Explanation**: The `docker load` commands import an image from a tar archive.
+
+- *Finally move your tar file in to Docker directory using this command `mv nginx_file.tar Docker/`
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Happy Learning
+* Happy Learning
 
-Thanks For Reading! :)
+* Thanks For Reading! :)
 
--DevOpsParthu💝💥
+* -DevOpsParthu💝💥
