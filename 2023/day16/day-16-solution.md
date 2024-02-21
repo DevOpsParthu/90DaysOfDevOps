@@ -42,4 +42,16 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 - Explanation: This commands use the docker run commands to start a new container based on hello-world and its create image.Docker will pull the image if its not available in locally and simply container prints a message to conform that your Docker installation is working.
 
+### Use the docker inspect command to view detailed information about a container or image.
 
+`docker ps`
+
+`docker inspect <CONTAINER_ID>`
+
+
+<div align="Center">
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1708435885266/9e05b47a-12f0-4c1b-8175-24470c1e538e.png" alt="my_logo">
+</div>
+
+
+- Explanation: The docker inspect command provide the detail information of your container or image.Using docker ps -a command you check your IMAGE and CONTAINER ID of your TASK:1
