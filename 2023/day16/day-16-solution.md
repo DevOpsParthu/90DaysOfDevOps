@@ -134,8 +134,6 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 - **Explanation**: The `docker load` commands import an image from a tar archive.
 
-- *Finally move your tar file in to Docker directory using this command `mv nginx_file.tar Docker/`*
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *Happy Learning*
