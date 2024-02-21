@@ -18,9 +18,11 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 `docker run nginx`
 
+
 <div align="center">
   <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1708435793752/c2987add-48ef-4393-99d5-888e184aebf0.png" alt="my logo">
 </div>
+
 
 `docker run -d --name nginx -p 80:80 nginx:latest`
 
@@ -32,9 +34,11 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 - nginx:latest: This specifies the Docker image to use when creating the container. In this case, it's using the nginx image with the latest tag, which refers to the most recent version of the Nginx image available on your local system or in the Docker Hub repository.
 
+
 <div align="center">
 <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1708436041590/2793af4c-2a29-4339-a2be-e40a1800a87b.png" alt="my logo">
 </div>
+
 
 - Explanation: This commands use the docker run commands to start a new container based on hello-world and its create image.Docker will pull the image if its not available in locally and simply container prints a message to conform that your Docker installation is working.
 
