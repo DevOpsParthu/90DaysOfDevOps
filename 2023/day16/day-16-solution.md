@@ -14,7 +14,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 `sudo apt-get install docker.io -y && sudo chown $USER /var/run/docker.sock`
 
-### Use the docker run command to start a new container and interact with it through the command line. [Hint: docker run hello-world or docker run nginx]
+### Use the `docker run` command to start a new container and interact with it through the command line. [Hint: docker run hello-world or docker run nginx]
 
 `docker run nginx`
 
@@ -42,7 +42,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 - Explanation: This commands use the docker run commands to start a new container based on hello-world and its create image.Docker will pull the image if its not available in locally and simply container prints a message to conform that your Docker installation is working.
 
-### Use the docker inspect command to view detailed information about a container or image.
+### Use the `docker inspect` command to view detailed information about a container or image.
 
 `docker ps`
 
