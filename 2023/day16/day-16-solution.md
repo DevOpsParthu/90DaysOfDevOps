@@ -114,7 +114,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 </div>
 
 
-- Explanation: The docker save command export to an image to a tar archive.
+- Explanation: The `docker save` command export to an image to a tar archive.
 
 
 ### Use the `docker load` command to load an image from a tar archive.
@@ -130,9 +130,9 @@ Docker is a software platform that allows you to build, test, and deploy applica
 </div>
 
 
-- -i <input_tar_file_name>.tar: The -i flag stands for "input," specifying the input file containing the Docker image. <input_tar_file_name>.tar is the name of the tar archive file from which you want to load the Docker image.
+- `-i` <input_tar_file_name>.tar: The `-i` flag stands for "input," specifying the input file containing the Docker image. `<input_tar_file_name>.tar` is the name of the tar archive file from which you want to load the Docker image.
 
-- Explanation: The docker load commands import an image from a tar archive.
+- Explanation: The `docker load` commands import an image from a tar archive.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
