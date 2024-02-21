@@ -69,3 +69,75 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 
 - Explanation: The `docker port` command specify the port mapping of its containers.
+
+
+### Use the `docker stats` command to view resource usage statistics for one or more containers.
+
+`docker ps`
+
+`docker stats <CONTAINER_ID>`
+
+
+<div align="center">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1701757230634/5861827d-e41b-4ed4-800c-c49b83ef1ec6.png" alt="my logo">
+</div>
+
+
+- Explanation: This `docker stats` commands provides the real-time resource usage statistics for one or more containers.
+
+
+### Use the `docker top` command to view the processes running inside a container.
+
+
+`docker ps`
+
+`docker top <CONATINER_ID>`
+
+
+<div align="center">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1701757365707/0c9e9b96-48c4-4f0a-bffe-47f21c7011c5.png" alt="my logo">
+</div>
+
+
+- Explanation: The `docker top` commands display the process of running inside the containers.
+
+
+### Use the `docker save` command to save an image to a tar archive.
+
+`docker ps`
+
+`docker save -o <output_tar_file_name>.tar <image_name>`
+
+
+<div align="center">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1701757562457/ca8765d9-ca94-4fb2-a351-5ecb4f1e4911.png" alt="my logo">
+</div>
+
+
+- Explanation: The docker save command export to an image to a tar archive.
+
+
+### Use the `docker load` command to load an image from a tar archive.
+
+
+`docker ps`
+
+`docker load -i <input_tar_file_name>.tar`
+
+
+<div align="center">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1701757710856/812e5845-64fd-4d76-a091-b4e16758d8bd.png" alt="my logo">
+</div>
+
+
+- -i <input_tar_file_name>.tar: The -i flag stands for "input," specifying the input file containing the Docker image. <input_tar_file_name>.tar is the name of the tar archive file from which you want to load the Docker image.
+
+- Explanation: The docker load commands import an image from a tar archive.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Happy Learning
+
+Thanks For Reading! :)
+
+-DevOpsParthu💝💥
